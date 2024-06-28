@@ -57,7 +57,13 @@ h1{
     color: var(--cor-destaque);
     margin-bottom: 10px;
 }
+table{
+    margin-bottom: 10px;
+}
 
+strong{
+    margin: 0;
+}
 
 h2{
     margin: 0;
@@ -82,7 +88,7 @@ div{
 
 
 .wrapper{
-    width: 45%;
+    width: 49%;
     display: inline-block;
 }
 
