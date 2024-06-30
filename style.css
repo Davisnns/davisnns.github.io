@@ -34,9 +34,49 @@ footer{
     text-align: center;
 }
 
+footer ul{
+    padding: 0px;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+table{
+    margin-bottom: 10px;
+}
+
+div{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    margin-top: 0px;
+    font-weight: 500;
+    color: var(--cor-destaque);
+    margin-bottom: 10px;
+}
+
 a{
     color: var(--cor-base);
     text-decoration: none;
+}
+
+h2{
+    margin: 0;
+    display: inline;
+    font-weight: 500;
+    color: var(--cor-destaque);
+}
+
+strong{
+    margin: 0;
+}
+
+abbr{
+    margin: 0px;
 }
 
 th{
@@ -51,46 +91,6 @@ hr{
     margin-bottom: 5px;
 
 }
-
-h1{
-    margin-top: 0px;
-    font-weight: 500;
-    color: var(--cor-destaque);
-    margin-bottom: 10px;
-}
-table{
-    margin-bottom: 10px;
-}
-
-strong{
-    margin: 0;
-}
-
-h2{
-    margin: 0;
-    display: inline;
-    font-weight: 500;
-    color: var(--cor-destaque);
-}
-
-footer ul{
-    padding: 0px;
-    margin: auto;
-    width: 50%;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
-div{
-    margin: 0px;
-    padding: 0px;
-}
-
-abbr{
-    margin: 0px;
-}
-
 
 .wrapper{
     width: 49%;
@@ -116,7 +116,7 @@ abbr{
 
 }
 
-#lista-navegacao li:first-child, #lista-navegacao li:first-child a{
+#lista-navegacao li:first-child a{
     margin: 0px;
 }
 
