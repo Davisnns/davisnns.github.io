@@ -87,6 +87,10 @@ div{
     padding: 0px;
 }
 
+abbr{
+    margin: 0px;
+}
+
 
 .wrapper{
     width: 49%;
@@ -110,6 +114,10 @@ div{
 #lista-navegacao li{
     display: inline;
 
+}
+
+#lista-navegacao li:first-child, #lista-navegacao li:first-child a{
+    margin: 0px;
 }
 
 #foto{
