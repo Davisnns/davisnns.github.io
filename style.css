@@ -108,6 +108,10 @@ header{
     display: inline-block;
 }
 
+#cabecalho p{
+    width: 90%;
+}
+
 #lista-navegacao{
     margin: 0;
     padding: 0;
