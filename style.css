@@ -30,6 +30,7 @@ body{
 
 footer{
     margin: 0px;
+    margin-top: 30px;
     background-color: var(--cor-primaria);
     text-align: center;
 }
@@ -48,6 +49,7 @@ table{
 }
 
 div{
+    scroll-margin-top: 25px;
     margin: 0px;
     padding: 0px;
 }
@@ -92,8 +94,17 @@ hr{
 
 }
 
+header{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+
 .wrapper{
-    width: 49%;
+    width: 50%;
     display: inline-block;
 }
 
@@ -134,11 +145,6 @@ hr{
     color: var(--cor-primaria);
 }
 
-#nome p{
-    font-size: max(4vw, 40px);
-    margin: 0;
-}
-
 #coltec{
     margin-top: 10px;
 }
@@ -149,7 +155,7 @@ hr{
 
 
 #nome span{
-    font-size: max(4vw, 40px);
+    font-size: max(4.5vw, 40px);
     margin: 0;
     
 }
